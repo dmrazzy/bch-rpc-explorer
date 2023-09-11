@@ -24,10 +24,11 @@
         "dotenv": "^8.2.0",
         "electrum-client": "github:janoside/electrum-client",
         "express": "^4.17.1",
+        "express-rate-limit": "^6.6.0",
         "express-session": "^1.17.1",
         "jstransformer-markdown-it": "^2.1.0",
         "lru-cache": "^5.1.1",
-        "marked": "^0.7.0",
+        "marked": "^4.0.10",
         "md5": "^2.2.1",
         "meow": "^5.0.0",
         "moment": "^2.27.0",
@@ -1121,6 +1122,17 @@
         "node": ">= 0.10.0"
       }
     },
+    "node_modules/express-rate-limit": {
+      "version": "6.11.1",
+      "resolved": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.11.1.tgz",
+      "integrity": "sha512-8+UpWtQY25lJaa4+3WxDBGDcAu4atcTruSs3QSL5VPEplYy6kmk84wutG9rUkkK5LmMQQ7TFHWLZYITwVNbbEg==",
+      "engines": {
+        "node": ">= 14"
+      },
+      "peerDependencies": {
+        "express": "^4 || ^5"
+      }
+    },
     "node_modules/express-session": {
       "version": "1.17.1",
       "resolved": "https://registry.npmjs.org/express-session/-/express-session-1.17.1.tgz",
@@ -1834,14 +1846,14 @@
       }
     },
     "node_modules/marked": {
-      "version": "0.7.0",
-      "resolved": "https://registry.npmjs.org/marked/-/marked-0.7.0.tgz",
-      "integrity": "sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==",
+      "version": "4.0.10",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz",
+      "integrity": "sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==",
       "bin": {
-        "marked": "bin/marked"
+        "marked": "bin/marked.js"
       },
       "engines": {
-        "node": ">=0.10.0"
+        "node": ">= 12"
       }
     },
     "node_modules/md5": {
@@ -4466,6 +4478,12 @@
         }
       }
     },
+    "express-rate-limit": {
+      "version": "6.11.1",
+      "resolved": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.11.1.tgz",
+      "integrity": "sha512-8+UpWtQY25lJaa4+3WxDBGDcAu4atcTruSs3QSL5VPEplYy6kmk84wutG9rUkkK5LmMQQ7TFHWLZYITwVNbbEg==",
+      "requires": {}
+    },
     "express-session": {
       "version": "1.17.1",
       "resolved": "https://registry.npmjs.org/express-session/-/express-session-1.17.1.tgz",
@@ -5010,9 +5028,9 @@
       }
     },
     "marked": {
-      "version": "0.7.0",
-      "resolved": "https://registry.npmjs.org/marked/-/marked-0.7.0.tgz",
-      "integrity": "sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg=="
+      "version": "4.0.10",
+      "resolved": "https://registry.npmjs.org/marked/-/marked-4.0.10.tgz",
+      "integrity": "sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw=="
     },
     "md5": {
       "version": "2.2.1",
