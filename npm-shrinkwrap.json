@@ -17,13 +17,14 @@
         "bluebird": "^3.7.2",
         "body-parser": "~1.19.0",
         "cookie-parser": "^1.4.5",
-        "crypto-js": "3.1.9-1",
+        "crypto-js": "3.2.1",
         "csurf": "^1.11.0",
         "debug": "~4.1.1",
         "decimal.js": "^10.2.0",
         "dotenv": "^8.2.0",
         "electrum-client": "github:janoside/electrum-client",
         "express": "^4.17.1",
+        "express-rate-limit": "^6.6.0",
         "express-session": "^1.17.1",
         "jstransformer-markdown-it": "^2.1.0",
         "lru-cache": "^5.1.1",
@@ -763,9 +764,9 @@
       }
     },
     "node_modules/crypto-js": {
-      "version": "3.1.9-1",
-      "resolved": "https://registry.npmjs.org/crypto-js/-/crypto-js-3.1.9-1.tgz",
-      "integrity": "sha1-/aGedh/Ad+Af+/3G6f38WeiAbNg="
+      "version": "3.2.1",
+      "resolved": "https://registry.npmjs.org/crypto-js/-/crypto-js-3.2.1.tgz",
+      "integrity": "sha512-fIEXOyiXnmPbPk2+q8t97VYDSo8naqvI+2v0AJeLraQzhuL/GZ2qgcRpEadVQ7r8pXwBOHVjwOdyAXYYb3DWiQ=="
     },
     "node_modules/csrf": {
       "version": "3.1.0",
@@ -1119,6 +1120,17 @@
       },
       "engines": {
         "node": ">= 0.10.0"
+      }
+    },
+    "node_modules/express-rate-limit": {
+      "version": "6.11.1",
+      "resolved": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.11.1.tgz",
+      "integrity": "sha512-8+UpWtQY25lJaa4+3WxDBGDcAu4atcTruSs3QSL5VPEplYy6kmk84wutG9rUkkK5LmMQQ7TFHWLZYITwVNbbEg==",
+      "engines": {
+        "node": ">= 14"
+      },
+      "peerDependencies": {
+        "express": "^4 || ^5"
       }
     },
     "node_modules/express-session": {
@@ -4147,9 +4159,9 @@
       "integrity": "sha1-iNf/fsDfuG9xPch7u0LQRNPmxBs="
     },
     "crypto-js": {
-      "version": "3.1.9-1",
-      "resolved": "https://registry.npmjs.org/crypto-js/-/crypto-js-3.1.9-1.tgz",
-      "integrity": "sha1-/aGedh/Ad+Af+/3G6f38WeiAbNg="
+      "version": "3.2.1",
+      "resolved": "https://registry.npmjs.org/crypto-js/-/crypto-js-3.2.1.tgz",
+      "integrity": "sha512-fIEXOyiXnmPbPk2+q8t97VYDSo8naqvI+2v0AJeLraQzhuL/GZ2qgcRpEadVQ7r8pXwBOHVjwOdyAXYYb3DWiQ=="
     },
     "csrf": {
       "version": "3.1.0",
@@ -4465,6 +4477,12 @@
           "integrity": "sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ=="
         }
       }
+    },
+    "express-rate-limit": {
+      "version": "6.11.1",
+      "resolved": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.11.1.tgz",
+      "integrity": "sha512-8+UpWtQY25lJaa4+3WxDBGDcAu4atcTruSs3QSL5VPEplYy6kmk84wutG9rUkkK5LmMQQ7TFHWLZYITwVNbbEg==",
+      "requires": {}
     },
     "express-session": {
       "version": "1.17.1",
