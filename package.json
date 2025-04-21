@@ -55,7 +55,7 @@
     "request": "^2.88.2",
     "semver": "^7.3.2",
     "serve-favicon": "^2.5.0",
-    "simple-git": "^1.132.0",
+    "simple-git": "^3.16.0",
     "text-decoding": "^1.0.0"
   },
   "devDependencies": {
