@@ -28,7 +28,7 @@
     "bindings": "^1.5.0",
     "bitcoin-core": "EchterAgo/bitcoin-core#c30b4a0cd51305449c08ca361b15afc1646b5388",
     "bluebird": "^3.7.2",
-    "body-parser": "~1.19.0",
+    "body-parser": "~1.20.3",
     "cookie-parser": "^1.4.5",
     "crypto-js": "3.1.9-1",
     "csurf": "^1.11.0",
